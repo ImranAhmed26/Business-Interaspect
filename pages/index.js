@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Nav from '../components/nav.js'
 import Banner from '../components/banner.js'
+import Vision from '../components/vision.js'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       
       <Nav />
       <Banner/>
+      <Vision/>
     </div>
   )
 }
