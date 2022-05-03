@@ -1,14 +1,14 @@
 const Vision = () => {
   return (
-    <div className='bg-gray-100 h-[30rem] px-40 py-10'>
-      <div className=' my-10 mx-32 text-center text-4xl text-gray-800'>
-        <div className='text-5xl font-semibold uppercase '>
+    <div className='bg-gray-100 px-10 md:px-20 xl:px-32 2xl:px-60  py-20'>
+      <div className=' my-10 text-center text-4xl text-gray-800'>
+        <div className='text-2xl sm:text-3xl font-semibold  text-gray-700'>
           Our Vision and Philosophy
         </div>
       </div>
-      <div className='flex justify-center text-center  gap-16 text-gray-700'>
-        <div className='bg-gradient-to-r from-cyan-200 to-teal-300 max-w-xl rounded-sm py-4 px-3 drop-shadow-lg'>
-          <h1 className="text-3xl font-medium pb-5 ">Vision</h1>
+      <div className='flex flex-col md:flex-row justify-center items-center md:items-stretch text-center gap-6 lg:gap-16 text-gray-700 lg:py-10'>
+        <div className='min-w-[50%] bg-gradient-to-r from-cyan-200 to-teal-300 max-w-xl rounded-sm py-4 px-4 drop-shadow-lg'>
+          <h1 className="text-2xl font-medium pb-5 ">Our Vision</h1>
           <h1 className='text-xl'>
             The vision of Business Interaspect is to be the most reliable and
             innovative Image post production outsourcing firm by taking due care
@@ -16,8 +16,8 @@ const Vision = () => {
             the partners.
           </h1>
         </div>
-        <div className='bg-gradient-to-r from-cyan-200 to-teal-300 max-w-xl rounded-sm py-4 px-4 drop-shadow-lg'>
-          <h1 className='text-3xl font-medium pb-5 '>Philosophy</h1>
+        <div className='min-w-[50%] bg-gradient-to-r from-cyan-200 to-teal-300 max-w-xl rounded-sm py-4 px-4 drop-shadow-lg'>
+          <h1 className='text-2xl font-medium pb-5 '>Our Philosophy</h1>
           <h1 className='text-xl'>
             The firm’s philosophy is to perform with proper accountability and
             achieve highest ethical and quality standards in image editing
@@ -30,3 +30,4 @@ const Vision = () => {
 }
 
 export default Vision
+
