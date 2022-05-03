@@ -3,6 +3,7 @@ import Nav from '../components/nav.js'
 import Banner from '../components/banner.js'
 import Vision from '../components/vision.js'
 import Strength from '../components/strength.js'
+import Service from '../components/service.js'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Banner />
       <Vision />
       <Strength />
+      <Service />
     </div>
   )
 }
