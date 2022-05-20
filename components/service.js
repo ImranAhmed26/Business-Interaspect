@@ -3,12 +3,16 @@ import Image from 'next/image'
 import {
   Swiper,
   SwiperSlide,
-  Autoplay,
+  // Autoplay,
   Pagination,
   Navigation,
 } from 'swiper/react'
 // Import Swiper styles
 import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+// import 'swiper/css/autoplay'
+import SwiperCore, {Autoplay} from 'swiper'
 
 import image1 from '../public/images/services/clipping.jpg'
 import image2 from '../public/images/services/color.jpg'
@@ -31,6 +35,8 @@ const servicesData = [
 ]
 
 const Service = () => {
+  SwiperCore.use([Autoplay])
+
   return (
     <div>
       <div className='bg-gradient-to-r from-sky-800 to-sky-900 py-10 px-60 '>
@@ -43,10 +49,10 @@ const Service = () => {
             slidesPerView={2}
             loop={true}
             speed={1000}
-            centeredSlides={true}
+            centeredSlides={false}
             autoHeight={true}
             autoplay={{
-              delay: 2500,
+              delay: 2000,
               disableOnInteraction: false,
             }}
             pagination={{
