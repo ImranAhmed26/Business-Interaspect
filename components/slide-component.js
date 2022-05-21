@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 // Import Swiper styles
 import 'swiper/css'
 
-export default ({image, content, key}) => {
+const SlideComponent = ({image, content, key}) => {
   return (
     <Swiper
       spaceBetween={0}
@@ -31,3 +31,5 @@ export default ({image, content, key}) => {
     </Swiper>
   )
 }
+
+export default SlideComponent 

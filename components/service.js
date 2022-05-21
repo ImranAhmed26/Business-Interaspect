@@ -104,15 +104,9 @@ const Service = () => {
             className='text-left text-gray-800  text align-middle ml-10 mt-10 mySwiper'
           >
             {servicesData.map(({image, title, content, index}) => (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <div className=' w-[20rem] h-[32rem] bg-white rounded-sm align-middle text-2xl  '>
-                  <Image
-                    src={image}
-                    key={index}
-                    alt={'heading'}
-                    width={400}
-                    height={250}
-                  />
+                  <Image src={image} alt={'heading'} width={400} height={250} />
                   <h1 className='py-3 px-3 text-xl font-normal'>{title}</h1>
                   <div className='w-64 h-0.5 bg-sky-800 mx-3'></div>
                   <h2 className='py-3 px-3 text-lg font-light'>{content}</h2>
