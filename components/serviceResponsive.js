@@ -66,6 +66,7 @@ const servicesData = [
     content:
       'lorem Ipsum general text used as dummy text for testing purpose with no relevent content.',
   },
+
   {
     image: image8,
     title: 'Image manipulation',
