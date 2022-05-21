@@ -8,7 +8,7 @@ const Nav = () => {
       <div>
         <div className='container mx-auto px-6 flex items-center justify-between h-24 '>
           <div className='uppercase text-gray-500 font-black text-3xl '>
-            <Image src={Logo} width={260} height={70} />
+            <Image src={Logo} width={260} height={70} alt={'Logo'}/>
           </div>
           <div className='flex items-center'>
             <div className='font-sen text-gray-900 uppercase text-base lg:flex font-medium items-center hidden'>
