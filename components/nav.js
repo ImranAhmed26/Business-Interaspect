@@ -12,19 +12,19 @@ const Nav = () => {
           </div>
           <div className='flex items-center'>
             <div className='font-sen text-gray-900 uppercase text-base lg:flex font-medium items-center hidden'>
-              <a href='#' className='py-2 px-4 flex hover:text-blue-600'>
+              <a href='#' className='py-2 px-4 flex hover:text-[#0054a6]'>
                 Home
               </a>
-              <a href='#' className='py-2 px-4 flex hover:text-blue-600'>
+              <a href='#' className='py-2 px-4 flex hover:text-[#0054a6]'>
                 Vision
               </a>
-              <a href='#' className='py-2 px-4 flex hover:text-blue-600'>
+              <a href='#' className='py-2 px-4 flex hover:text-[#0054a6]'>
                 Our Strengths
               </a>
-              <a href='#' className='py-2 px-4 flex hover:text-blue-600'>
+              <a href='#' className='py-2 px-4 flex hover:text-[#0054a6]'>
                 Contact Us
               </a>
-              <a href='#' className='py-2 px-4 flex hover:text-blue-600'>
+              <a href='#' className='py-2 px-4 flex hover:text-[#0054a6]'>
                 Carrer
               </a>
             </div>

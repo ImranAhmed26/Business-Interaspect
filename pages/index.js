@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Nav from '../components/nav.js'
 import Banner from '../components/banner.js'
 import Vision from '../components/vision.js'
+import Strength from '../components/strength.js'
+import Service from '../components/service.js'
 
 export default function Home() {
   return (
@@ -12,10 +14,11 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      
       <Nav />
-      <Banner/>
-      <Vision/>
+      <Banner />
+      <Vision />
+      <Strength />
+      <Service />
     </div>
   )
 }

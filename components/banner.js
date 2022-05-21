@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
 <div
-      className=' bg-white relative overflow-hidden h-screen'
+      className=' bg-white relative overflow-hidden h-screen drop-shadow-2xl'
       id='banner'
     >
       <div className='h-screen bg-main-global  flex relative z-20 '>
@@ -26,13 +26,13 @@ const Banner = () => {
             <div className='flex items-center justify-center mt-52'>
               <a
                 href='#'
-                className='uppercase py-2 px-4 bg-gray-800 border-2 border-gray-50 text-white text-md mr-4 hover:bg-blue-700 transition-all duration-150'
+                className='uppercase py-2 px-4 bg-gray-800 border-2 border-gray-50 text-white text-md mr-4  hover:border-gray-800 transition-all duration-300 '
               >
                 Contact Us
               </a>
               <a
                 href='#'
-                className='uppercase py-2 px-4 bg-transparent border-2 border-gray-50 text-white  hover:blue-700 hover:border-blue-700 hover:text-white text-md transition-all duration-150'
+                className='uppercase py-2 px-4 bg-transparent border-2 border-gray-50 text-white  hover:bg-[#0054a6] hover:border-[#0054a6] hover:text-white text-md transition-all duration-300'
               >
                 Get A Free Trial
               </a>
