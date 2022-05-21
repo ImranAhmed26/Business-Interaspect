@@ -20,7 +20,7 @@ import image3 from '../public/images/services/retouch.jpg'
 import image4 from '../public/images/services/mask.jpg'
 import image5 from '../public/images/services/neck-joint.jpg'
 import image6 from '../public/images/services/drop-shadow.jpg'
-import image7 from '../public/images/services/bgrm.jpg'
+import image7 from '../public/images/services/background-remove.jpg'
 import image8 from '../public/images/services/manupulation.jpg'
 
 const servicesData = [
@@ -74,19 +74,19 @@ const servicesData = [
   },
 ]
 
-const Service = () => {
+const ServiceResponsive = () => {
   SwiperCore.use([Autoplay])
 
   return (
     <div>
-      <div className='bg-gradient-to-r from-sky-800 to-sky-900 py-10 px-60 '>
+      <div className='bg-gradient-to-r from-sky-800 to-sky-900 py-10 px-7 '>
         <div className='text-2xl sm:text-5xl font-semibold text-gray-100 drop-shadow-md'>
           Our Services
         </div>
         <div className='flex'>
           <Swiper
-            spaceBetween={2}
-            slidesPerView={4}
+            spaceBetween={0}
+            slidesPerView={1}
             loop={true}
             speed={1000}
             centeredSlides={false}
@@ -119,4 +119,4 @@ const Service = () => {
     </div>
   )
 }
-export default Service
+export default ServiceResponsive

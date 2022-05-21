@@ -4,6 +4,7 @@ import Banner from '../components/banner.js'
 import Vision from '../components/vision.js'
 import Strength from '../components/strength.js'
 import Service from '../components/service.js'
+import ServiceResponsive from '../components/serviceResponsive.js'
 
 export default function Home() {
   return (
@@ -17,8 +18,14 @@ export default function Home() {
       <Nav />
       <Banner />
       <Vision />
+      <div className='hidden lg:block'>
+        <Service />
+      </div>
+      <div className='md:hidden'>
+
+      <ServiceResponsive />
+      </div>
       <Strength />
-      <Service />
     </div>
   )
 }

@@ -30,8 +30,8 @@ const uniqueStrengthsData = [
 
 const Strength = () => {
   return (
-    <div className='py-20 bg-gray-300'>
-      <div className='text-center py-10 bg-gray-300'>
+    <div className='py-10 lg:py-20 '>
+      <div className='text-left md:text-center lg:py-10 px-10'>
         <h1 className='text-2xl sm:text-3xl font-semibold drop-shadow-sm text-gray-700'>
           Our Unique Strengths
         </h1>
