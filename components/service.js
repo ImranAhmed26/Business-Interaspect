@@ -62,6 +62,12 @@ const servicesData = [
   },
 
   {
+    image: image7,
+    title: 'Background Remove',
+    content:
+      'lorem Ipsum general text used as dummy text for testing purpose with no relevent content.',
+  },
+  {
     image: image8,
     title: 'Image manipulation',
     content:
