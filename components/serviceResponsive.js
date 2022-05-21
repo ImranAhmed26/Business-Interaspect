@@ -20,7 +20,7 @@ import image3 from '../public/images/services/retouch.jpg'
 import image4 from '../public/images/services/mask.jpg'
 import image5 from '../public/images/services/neck-joint.jpg'
 import image6 from '../public/images/services/drop-shadow.jpg'
-import image7 from '../public/images/services/background-remove.jpg'
+import image7 from '../public/images/services/bgrm.jpg'
 import image8 from '../public/images/services/manupulation.jpg'
 
 const servicesData = [
