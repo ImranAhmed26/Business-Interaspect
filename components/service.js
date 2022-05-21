@@ -20,7 +20,6 @@ import image3 from '../public/images/services/retouch.jpg'
 import image4 from '../public/images/services/mask.jpg'
 import image5 from '../public/images/services/neck-joint.jpg'
 import image6 from '../public/images/services/drop-shadow.jpg'
-import image7 from '../public/images/services/background-remove.jpg'
 import image8 from '../public/images/services/manupulation.jpg'
 
 const servicesData = [
@@ -60,12 +59,7 @@ const servicesData = [
     content:
       'lorem Ipsum general text used as dummy text for testing purpose with no relevent content.',
   },
-  {
-    image: image7,
-    title: 'Background Remove',
-    content:
-      'lorem Ipsum general text used as dummy text for testing purpose with no relevent content.',
-  },
+
   {
     image: image8,
     title: 'Image manipulation',
