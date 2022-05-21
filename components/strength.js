@@ -40,7 +40,7 @@ const Strength = () => {
         {uniqueStrengthsData.map(({image, content}, index) => (
           <div key={index} className='grid grid-cols-8 items-center gap-2'>
             <div className='col-span-1'>
-              <Image src={image} width={70} height={70} />
+              <Image src={image} width={70} height={70} alt={'strengths'}/>
             </div>
             <div className='col-span-6 '>
               <h1>{content}</h1>
