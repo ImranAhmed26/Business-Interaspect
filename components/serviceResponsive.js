@@ -79,8 +79,8 @@ const ServiceResponsive = () => {
   SwiperCore.use([Autoplay])
 
   return (
-    <div>
-      <div className='bg-gradient-to-r from-sky-800 to-sky-900 py-10 px-7 '>
+    <div className='bg-sky-900 '>
+      <div className='py-10 px-10 '>
         <div className='text-2xl sm:text-5xl font-semibold text-gray-100 drop-shadow-md'>
           Our Services
         </div>
