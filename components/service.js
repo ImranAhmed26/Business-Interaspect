@@ -79,7 +79,7 @@ const Service = () => {
   SwiperCore.use([Autoplay])
 
   return (
-    <div className='bg-sky-800 px-20 lg:px-32 xl:px-40 2xl:px-60'>
+    <div className='bg-sky-800 px-20 lg:px-32 xl:px-40  2xl:flex items-center justify-center'>
       <div className='py-10  max-w-6xl'>
         <div className='text-2xl sm:text-5xl font-semibold text-gray-100 drop-shadow-md'>
           Our Services
@@ -87,12 +87,12 @@ const Service = () => {
         <div className=''>
           <Swiper
 
-            spaceBetween={0}
+            spaceBetween={10}
             slidesPerView={3}
             loop={true}
             speed={800}
             centeredSlides={false}
-            autoHeight={true}
+            autoHeight={false}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
