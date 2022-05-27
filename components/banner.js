@@ -13,7 +13,7 @@ const Banner = () => {
             <h1 className='font-normal w-full uppercase text-center text-2xl  text-white pt-2'>
               Your image processing partner
             </h1>
-            <h2 className='font-light max-w-5xl mx-auto w-full text-xl  text-gray-400 text-center pt-20'>
+            <h2 className='font-light max-w-5xl mx-auto w-full text-xl  text-gray-100 text-center pt-20'>
               {`Business Inter Aspect is an Image post production facility
               providing diverse services relating to image editing works. The
               expert panel of the firm is consists of a group of highly
