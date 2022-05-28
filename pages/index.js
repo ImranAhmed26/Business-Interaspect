@@ -5,6 +5,8 @@ import Vision from '../components/vision.js'
 import Strength from '../components/strength.js'
 import Service from '../components/service.js'
 import ServiceResponsive from '../components/serviceResponsive.js'
+import EditSteps from '../components/editSteps.js'
+import ContactUs from '../components/contact-form.js'
 
 export default function Home() {
   return (
@@ -18,14 +20,15 @@ export default function Home() {
       <Nav />
       <Banner />
       <Vision />
-      <div className='hidden lg:block'>
+      <div className='hidden md:block '>
         <Service />
       </div>
       <div className='md:hidden'>
-
-      <ServiceResponsive />
+        <ServiceResponsive />
       </div>
       <Strength />
+      <EditSteps />
+      <ContactUs />
     </div>
   )
 }

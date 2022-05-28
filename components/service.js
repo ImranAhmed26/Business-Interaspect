@@ -79,19 +79,20 @@ const Service = () => {
   SwiperCore.use([Autoplay])
 
   return (
-    <div className='bg-sky-900 flex justify-center'>
+    <div className='bg-sky-800 px-20 lg:px-32 xl:px-40  2xl:flex items-center justify-center'>
       <div className='py-10  max-w-6xl'>
         <div className='text-2xl sm:text-5xl font-semibold text-gray-100 drop-shadow-md'>
           Our Services
         </div>
         <div className=''>
           <Swiper
-            spaceBetween={0}
+
+            spaceBetween={10}
             slidesPerView={3}
             loop={true}
-            speed={1000}
+            speed={800}
             centeredSlides={false}
-            autoHeight={true}
+            autoHeight={false}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -106,11 +107,17 @@ const Service = () => {
           >
             {servicesData.map(({image, title, content, index}) => (
               <SwiperSlide key={index}>
-                <div className=' w-[20rem] h-[32rem] bg-white rounded-sm align-middle text-2xl  '>
-                  <Image src={image} alt={'heading'} width={400} height={250} />
-                  <h1 className='py-3 px-3 text-xl font-normal'>{title}</h1>
-                  <div className='w-64 h-0.5 bg-sky-800 mx-3'></div>
-                  <h2 className='py-3 px-3 text-lg font-light'>{content}</h2>
+                <div className='md:w-[12rem] md:h-[20rem] lg:w-[17rem] 2xl:w-[21rem] lg:h-[27rem] 2xl:h-[32rem] bg-white rounded-sm align-middle text-2xl drop-shadow-lg '>
+                  <Image
+                    src={image}
+                    alt={'heading'}
+                    width={400}
+                    height={250}
+                    className={'rounded-sm'}
+                  />
+                  <h1 className='py-3 px-3 text-base lg:text-xl font-normal'>{title}</h1>
+                  <div className=' xl:w-64 h-0.5 bg-sky-800 mx-3'></div>
+                  <h2 className='py-3 px-3 text-base font-light'>{content}</h2>
                 </div>
               </SwiperSlide>
             ))}
