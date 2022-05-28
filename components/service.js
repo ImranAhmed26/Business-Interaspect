@@ -86,7 +86,6 @@ const Service = () => {
         </div>
         <div className=''>
           <Swiper
-
             spaceBetween={10}
             slidesPerView={3}
             loop={true}
@@ -115,7 +114,9 @@ const Service = () => {
                     height={250}
                     className={'rounded-sm'}
                   />
-                  <h1 className='py-3 px-3 text-base lg:text-xl font-normal'>{title}</h1>
+                  <h1 className='py-3 px-3 text-base lg:text-xl font-normal'>
+                    {title}
+                  </h1>
                   <div className=' xl:w-64 h-0.5 bg-sky-800 mx-3'></div>
                   <h2 className='py-3 px-3 text-base font-light'>{content}</h2>
                 </div>
